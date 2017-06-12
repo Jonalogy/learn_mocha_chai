@@ -23,27 +23,27 @@
 
 * Describing a test in Mocha:
 
-> ```javascript
->  describe(/* Test_Header */ , function() {
->    describe(/* Test_SubHeader */, function() {
->      it(/* A short description to describe the test */, function() {
->        assert.equal(
->        /* Invoke Function here. Function must also return here */,
->        /* Expected Result to compare with */);
->      });
->    });
->  });
->  ```
+  > ```javascript
+  >  describe(/* Test_Header */ , function() {
+  >    describe(/* Test_SubHeader */, function() {
+  >      it(/* A short description to describe the test */, function() {
+  >        assert.equal(
+  >        /* Invoke Function here. Function must also return here */,
+  >        /* Expected Result to compare with */);
+  >      });
+  >    });
+  >  });
+  >  ```
 
 ## Running a Test
 * In package.json, ensure to include `test` in `package.json` `script` property.
 
- > ```javascript
- > "scripts": {
- >   "test": "mocha"
- > }
- >```
- 
+  > ```javascript
+  > "scripts": {
+  >   "test": "mocha"
+  > }
+  >```
+
 * In Terminal, type `npm run test`
 * To ignore npm's error message, run `npm run test -s` or edit `package.json` to:
 
