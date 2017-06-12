@@ -37,11 +37,13 @@
 
 ## Running a Test
 * In package.json, ensure to include `test` in `package.json` `script` property.
+
  > ```javascript
  > "scripts": {
  >   "test": "mocha"
  > }
- ```
+ >```
+ 
 * In Terminal, type `npm run test`
 * To ignore npm's error message, run `npm run test -s` or edit `package.json` to:
 
