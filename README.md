@@ -24,16 +24,16 @@
 * Describing a test in Mocha:
 
 > ```javascript
-  describe(/* Test_Header */ , function() {
-    describe(/* Test_SubHeader */, function() {
-      it(/* A short description to describe the test */, function() {
-        assert.equal(
-        /* Invoke Function here. Function must also return here */,
-        /* Expected Result to compare with */);
-      });
-    });
-  });
-  ```
+>  describe(/* Test_Header */ , function() {
+>    describe(/* Test_SubHeader */, function() {
+>      it(/* A short description to describe the test */, function() {
+>        assert.equal(
+>        /* Invoke Function here. Function must also return here */,
+>        /* Expected Result to compare with */);
+>      });
+>    });
+>  });
+>  ```
 
 ## Running a Test
 * In package.json, ensure to include `test` in `package.json` `script` property.
@@ -46,10 +46,10 @@
 * To ignore npm's error message, run `npm run test -s` or edit `package.json` to:
 
   > ```javascript
-   "scripts": {
-     "test": "mocha || true"
-   }
-   ```
+  > "scripts": {
+  >   "test": "mocha || true"
+  > }
+  > ```
 
 ### Learning Source
 * Youtube: [Intro To JavaScript Unit Testing With Mocha JS & Chai](https://www.youtube.com/watch?v=MLTRHc5dk6s)
