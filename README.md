@@ -22,7 +22,8 @@
 
 
 * Describing a test in Mocha:
->```javascript
+
+> ```javascript
   describe(/* Test_Header */ , function() {
     describe(/* Test_SubHeader */, function() {
       it(/* A short description to describe the test */, function() {
@@ -43,11 +44,12 @@
  ```
 * In Terminal, type `npm run test`
 * To ignore npm's error message, run `npm run test -s` or edit `package.json` to:
+
   > ```javascript
- "scripts": {
-   "test": "mocha || true"
- }
- ```
+   "scripts": {
+     "test": "mocha || true"
+   }
+   ```
 
 ### Learning Source
 * Youtube: [Intro To JavaScript Unit Testing With Mocha JS & Chai](https://www.youtube.com/watch?v=MLTRHc5dk6s)
