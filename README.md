@@ -53,5 +53,16 @@
   > }
   > ```
 
+* Mocha has other configurable options, for example:
+  * `--recursive`, which tells Mocha to test all subirectories as well.
+  * `--reporter landing`, to include visuals on terminal to summarize the test report.
+
+  > ```javascript
+  > "scripts": {
+  >   "test": "mocha --recursive --reporter landing|| true"
+  > }
+  > ```
+  > See [Usage](http://mochajs.org/#usage) section on MochaJS docs to explore the other options!
+
 ### Learning Source
 * Youtube: [Intro To JavaScript Unit Testing With Mocha JS & Chai](https://www.youtube.com/watch?v=MLTRHc5dk6s)
